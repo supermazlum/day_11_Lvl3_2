@@ -1,0 +1,93 @@
+/*=======================
+        GENERALS
+========================*/
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+html {
+    font-size: 10px;
+}
+
+/*=======================
+        MAIN
+========================*/
+
+main {
+    background-color: black;
+    width: 80vw;
+    height: 80vh;
+    margin: 4vh auto 0 auto;
+}
+
+main #signuplogin {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5vh;
+}
+
+main #signuplogin a {
+    background-color: green;
+    padding: 3vh 14vw;
+    margin: 0.1vw;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+main #signuplogin a:hover {
+    background-color: greenyellow;
+}
+
+main div h2 {
+    color: white;
+    text-align: center;
+    font-size: 2.6rem;
+    margin: 5vh;
+}
+
+main #namearea input {
+    width: 36vw;
+    display: inline;
+    background-color: black;
+    padding: 1vh;
+    margin-left: 0.8vw;
+}
+
+main .mailpassword input {
+    background-color: black;
+    width: 75vw;
+    margin-top: 4vh;
+    padding: 1vh;
+    margin-left: 0.8vw;
+}
+
+main section a {
+    color: green;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-end;
+    margin: 7vh 3vw 4vh 0;
+}
+
+main .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 6.4vh;
+}
+
+main .buttons input {
+    background-color: green;
+    padding: 3vh 25vw;
+    margin: 0.1vw;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+main .buttons input:hover {
+    background-color: greenyellow;
+}
